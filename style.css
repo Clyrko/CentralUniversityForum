@@ -26,6 +26,37 @@ h1 {
 
 /*End of Global Section*/
 
+/* Navigation Bar */
+
+.navigation ul {
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation a {
+
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navigation a:hover {
+
+    color: #8E3028;
+}
+
+.main-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    height: 20px;
+}
+
+/* End Navigation Bar*/
+
 /* Home Page */
 
 .container {
@@ -81,7 +112,6 @@ h1 {
 .subforum-icon i {
 
     font-size: 45px;
-    background-color: white;
 }
 
 .subforum-divider {
@@ -114,7 +144,7 @@ h1 {
     .subforum-row {
 
         display: grid;
-        grid-template-columns: 25% 75%;
+        grid-template-columns: 25% 90%;
         grid-template-rows: 65% 35%;
     }
 
