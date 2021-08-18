@@ -28,6 +28,20 @@ h1 {
 
 /* Navigation Bar */
 
+.school-logo {
+
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ff2400;
+    text-decoration: none;
+}
+
+.school-name {
+
+    margin-left: 2.5rem;
+}
+
 .navigation ul {
 
     display: flex;
@@ -52,7 +66,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: right;
-    height: 20px;
+    height: 10px;
+    margin-top: 50px;
+    margin-inline: 10px;
 }
 
 /* End Navigation Bar*/
@@ -128,6 +144,18 @@ h1 {
 
 
 /* End of Home Page */
+
+/* Footer */
+
+footer {
+
+    margin-top: 20px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* End of Footer*/
 
 /* Media Queries Section*/
 
