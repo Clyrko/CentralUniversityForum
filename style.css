@@ -41,10 +41,22 @@ h1 {
 
 .subforum-title {
 
-    background-color: gray;
+    background-color: #8E3028;
     padding: 5px;
     border-radius: 5px;
     margin: 4px;
+}
+
+.subforum-title h1 {
+
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.subforum-title a {
+
+    color: white;
 }
 
 .subforum-description * {
@@ -63,12 +75,13 @@ h1 {
     padding: 10px;
     margin: 4px;
     border-radius: 5px;
-    background-color: lightgray;
+    background-color: #C4C4C4;
 }
 
 .subforum-icon i {
 
     font-size: 45px;
+    background-color: white;
 }
 
 .subforum-divider {
